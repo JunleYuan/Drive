@@ -36,10 +36,14 @@ class Loading extends Phaser.Scene {
     create() {
         
         
-        this.scene.start("road");
+        //this.scene.start("road");
+        //this.scene.launch("car");
+
+        //this.scene.start("walkcar");
+
+        this.scene.start("tray");
+
         this.scene.launch("car");
-
-
 
         //this.scene.start("total");
         
@@ -54,6 +58,21 @@ class Loading extends Phaser.Scene {
         this.load.image('Wboarder', './assets/boarder.png');
 
         this.load.image('roadBackground', './assets/background.png');
+
+        this.load.image('sidecar', './assets/car_side.png');
+
+        this.load.image('walkBackground', './assets/walk_background.png');
+
+        this.load.image('tree', './assets/walk_background_tree.png');
+
+        this.load.image('walkGuy', './assets/walk_guy.png');
+
+        this.load.image('trayKey', './assets/tray_key.png');
+
+        this.load.image('tray', './assets/tray.png');
+
+        this.load.image('key', './assets/key.png');
+        
 
     }
 

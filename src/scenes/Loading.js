@@ -72,6 +72,13 @@ class Loading extends Phaser.Scene {
         this.load.image('tray', './assets/tray.png');
 
         this.load.image('key', './assets/key.png');
+
+
+        for(let i = 1; i< 12;i++){
+
+            this.load.image('door'+i, './assets/pxdoor'+ i +'.png');
+
+        }
         
 
     }

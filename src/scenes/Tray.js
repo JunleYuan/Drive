@@ -12,7 +12,7 @@ class Tray extends Phaser.Scene {
         //mouse
         this.pointer = this.input.activePointer;
 
-        this.background = this.add.image(0, -100, 'tray').setOrigin(0, 0).setScale(1);
+        this.background = this.add.image(0, 0, 'tray').setOrigin(0, 0).setScale(1.01);
 
         
 
@@ -30,7 +30,7 @@ class Tray extends Phaser.Scene {
         });
 
 
-        var zone = this.add.zone(580, 200, 700, 300).setRectangleDropZone(700, 300);
+        var zone = this.add.zone(580, 300, 700, 300).setRectangleDropZone(700, 300);
 
         //  Just a visual display of the drop zone
         var graphics = this.add.graphics();

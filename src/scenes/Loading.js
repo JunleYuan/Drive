@@ -41,7 +41,9 @@ class Loading extends Phaser.Scene {
 
         //this.scene.start("walkcar");
 
-        this.scene.start("tray");
+        //this.scene.start("tray");
+
+        this.scene.start("door");
 
         this.scene.launch("car");
 

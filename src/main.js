@@ -8,7 +8,7 @@ let config = {
     physics: {
         default: 'arcade',
     },
-    scene: [ Loading, Car, Road, Menu, Play, Walkcar, Tray]
+    scene: [ Loading, Car, Road, Menu, Play, Walkcar, Tray, Door]
 }
 
 let game = new Phaser.Game(config);

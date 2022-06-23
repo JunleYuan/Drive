@@ -36,14 +36,14 @@ class Loading extends Phaser.Scene {
     create() {
         
         
-        //this.scene.start("road");
+        this.scene.start("road");
         //this.scene.launch("car");
 
         //this.scene.start("walkcar");
 
         //this.scene.start("tray");
 
-        this.scene.start("door");
+        //this.scene.start("door");
 
         this.scene.launch("car");
 
@@ -74,6 +74,10 @@ class Loading extends Phaser.Scene {
         this.load.image('tray', './assets/tray.png');
 
         this.load.image('key', './assets/key.png');
+
+        this.load.image('car', './assets/car.png');
+
+        this.load.image('sideline', './assets/side_lines.png');
 
 
         for(let i = 1; i< 12;i++){

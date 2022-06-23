@@ -6,7 +6,7 @@ let config = {
         target: 60
     },
     physics: {
-        default: 'arcade',
+        default: 'matter',
     },
     scene: [ Loading, Car, Road, Menu, Play, Walkcar, Tray, Door]
 }

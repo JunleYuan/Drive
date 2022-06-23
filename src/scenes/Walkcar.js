@@ -24,12 +24,7 @@ class Walkcar extends Phaser.Scene {
 
         this.car = this.add.image(600, 480, 'sidecar').setOrigin(0, 0).setScale(.6);
         
-        this.input.on('pointerdown', function (pointer) {
-
-            
-            
-    
-        }, this);
+        
 
         
         

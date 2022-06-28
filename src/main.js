@@ -8,7 +8,7 @@ let config = {
     physics: {
         default: 'matter',
     },
-    scene: [ Loading, Car, Road, Menu, Play, Walkcar, Tray, Door]
+    scene: [Dialogue, Loading, Car, Road, Menu, Play, Walkcar, Tray, Door]
 }
 
 let game = new Phaser.Game(config);
